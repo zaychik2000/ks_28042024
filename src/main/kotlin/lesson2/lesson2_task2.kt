@@ -16,6 +16,7 @@ fun main(){
 
     val averageSalary = generalExpenses /(theТumberОfЕmployees + numberOfTrainees)
 
+
     println("Расходы на выплату зарплаты постоянных сотрудников: $expensesForPermanentEmployees руб.")
     println("Общие расходы по ЗП после прихода стажеров: $generalExpenses руб.")
     println("Средняя ЗП одного сотрудника после устройства стажеров: $averageSalary руб.")
