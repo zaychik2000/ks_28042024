@@ -13,4 +13,4 @@ fun main(){
 
 
 }
-val TOTAL_PERCENT = 100
+const val TOTAL_PERCENT = 100
