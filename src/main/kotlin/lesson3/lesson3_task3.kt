@@ -8,7 +8,7 @@ fun main() {
 
         val multiplicationResult = number * number2
 
-        println("$number x $number = $multiplicationResult")
+        println("$number x $number2 = $multiplicationResult")
     }
 
 
