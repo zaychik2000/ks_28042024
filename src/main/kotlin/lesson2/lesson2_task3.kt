@@ -22,4 +22,5 @@ fun main(){
     println("Час и минута прибытия поезда: $formattedTime")
 }
 
+
  const val MINUTES_IN_AN_HOUR = 60
