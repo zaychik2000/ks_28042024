@@ -2,10 +2,15 @@ package org.example.lesson5
 
 fun main() {
 
-    println("Пожалуйста, решите пример: 3 + 21 =")
+    val number1 = 3
+    val number2 = 21
 
-    val answerToExample = readln().toInt()
+    val answerToExample = number1 + number2
 
-    if (answerToExample == 24) println("Добро пожаловать!")
+    println("Пожалуйста, решите пример: $number1 + $number2 =")
+
+    val userResponse = readln().toInt()
+
+    if (answerToExample == userResponse) println("Добро пожаловать!")
     else println("Доступ запрещен")
 }
