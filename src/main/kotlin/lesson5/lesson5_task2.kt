@@ -2,10 +2,12 @@ package org.example.lesson5
 
 fun main(){
 
-    println("Введите год своего рождения")
-    val usersYearOfBirth = readLine()!!.toInt()
+    val thisYear = 2024
 
-    val userAge = THIS_YEAR - usersYearOfBirth
+    println("Введите год своего рождения")
+    val usersYearOfBirth = readln().toInt()
+
+    val userAge = thisYear - usersYearOfBirth
 
     if(userAge >= AGE_OF_MAJORITY) println("Показать экран со скрытым контентом")
 
@@ -13,7 +15,6 @@ fun main(){
 }
 
 const val AGE_OF_MAJORITY = 18
-const val THIS_YEAR = 2024
 
 
 
